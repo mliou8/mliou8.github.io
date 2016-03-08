@@ -13,7 +13,6 @@ In broad strokes, I feel like talking through a technical challenge is meant to 
 2. You understand the greater context of the problem. 
 
 
-
 Did you understand how difficult do other people find this problem? It shouldn't be one that's easily solvable by reading the documentation or by doing a simple Google search. For example, I had difficulty in making this library perform the way I wanted to, but then I realized that it was solveable by specifying an additional option parameter is probably not valid. What would be more valid would be something like - I needed to utilize a web scraper for a nontraditional case that required log ins, and authentications. 
 
 
