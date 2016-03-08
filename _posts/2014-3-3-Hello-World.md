@@ -1,12 +1,23 @@
 ---
 layout: post
-title: You're up and running!
+title: Overcoming a technical challenge
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+In broad strokes, I feel like talking through a technical challenge is meant to demonstrate a few things about you.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+1. That you know how to effectively communicate the challenge that you were facing. 
+⋅⋅* What were you trying to accomplish?
+⋅⋅* Why was it difficult to accomplish? 
+⋅⋅* What steps did you take to solve the problem and how did you arrive at that solution.
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+2. You understand the greater context of the problem. 
 
-This is a post. My very first post.
+
+
+Did you understand how difficult do other people find this problem? It shouldn't be one that's easily solvable by reading the documentation or by doing a simple Google search. For example, I had difficulty in making this library perform the way I wanted to, but then I realized that it was solveable by specifying an additional option parameter is probably not valid. What would be more valid would be something like - I needed to utilize a web scraper for a nontraditional case that required log ins, and authentications. 
+
+
+3. You can deal with a challenge in a mature way, and not get overly frustrated or angry.
+
+
+Some old coworkers of mine who were senior engineers used to always ask a question during interviews. This question was the . [Monty Hall Problem](https://en.wikipedia.org/wiki/Monty_Hall_problem "Monty Hall Problem"). The reason they asked this problem was to see not only if people had a good approach to solving the problem, but how they reacted to being told they were wrong (the answer is counterintuitive and people often get it wrong on the first try). I remember a group of people once getting sucked into a particularly long argument at a restaurant for 2 hours over the answer. That story was an amusing anecdote and fun to remember, but that type of argument at work is not as cute, because communication skills are important and the ability for a team to be able to come to an agreement is important.  
