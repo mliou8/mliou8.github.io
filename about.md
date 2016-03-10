@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Thanks for visiting my page!
 
 ### More Information
 
-My hobbies include: games, gamification, VR, science fiction, and social engineering.
+I loves all things games, gamification, VR, science fiction, and social engineering.
 
 ### Contact me
 
