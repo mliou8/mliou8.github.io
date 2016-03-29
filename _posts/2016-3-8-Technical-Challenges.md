@@ -16,7 +16,7 @@ In broad strokes, I feel like talking through a technical challenge is meant to 
    Did you understand how difficult do other people find this problem? It shouldn't be one that's easily solvable by reading the documentation or by doing a simple Google search. For example, I had difficulty in making this library perform the way I wanted to, but then I realized that it was solveable by specifying an additional option parameter is probably not valid.
 
 <!--break-->
-What would be more valid would be something like - I needed to utilize a web scraper for a nontraditional case that required log ins, and authentications. 
+   What would be more valid would be something like - I needed to utilize a web scraper for a nontraditional case that required log ins, and authentications, and I tweaked the library to fix it. Or I looked at the pull requests for an open source library, read that someone had a similar problem, and tried their solution.
 
 
 * __You can deal with a challenge in a mature way, and not get overly frustrated or angry.__
