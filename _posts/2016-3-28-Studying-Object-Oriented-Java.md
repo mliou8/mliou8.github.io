@@ -19,7 +19,7 @@ write that sentence, I'm interested to see what kind of offerings they'll have i
 
 Why study Java and what will I learn that's different from my foundation in Javascript? 
 (Note: Java & Javascript are related like a car and carpet are related, that is to say not at all)
-
+<!--break-->
 Source: [Stack Overflow](http://stackoverflow.com/questions/245062/whats-the-difference-between-javascript-and-java)
 
 * Java is a statically typed language; JavaScript is dynamic.
