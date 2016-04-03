@@ -1,13 +1,17 @@
 ---
 layout: post
-title: Overcoming a technical challenge
+title: == vs. ===
 ---
 
 What is the difference between == and ===?
 
-In Javascript, there’s a slight difference between using two equal signs and three equal signs. The short version of the difference between == and === is that two equal signs uses something called implicit type casting, and === compares both value AND the type, and both must match for that expression to return true. 
+In Javascript, there’s a slight difference between using two equal signs and three equal signs. 
+The short version of the difference between == and === is that two equal signs uses something called implicit type casting, and === compares both value AND the type, and both must match for that expression to return true. 
 
-A very common example is 42 == ’42’ because the type coercion will force the number type 42 to equal a string, and then compare the two values. Going on a bit of a side tangent, type coercion also happens with cases like 42  + “”  returning “42” because the  compiler forces the 42 to be converted to a string. Since there is a + sign and also a string “” the + sign becomes a string concatenation and converts everything to the right of the expression into a string. Javascript is evaluated left to right, so 42 + 5 + “string” would be “47string” but 42 + “string” + 5 would be 42string5.
+A very common example is 42 == ’42’ because the type coercion will force the number type 42 to equal a string, and then compare the two values. 
+Going on a bit of a side tangent, type coercion also happens with cases like 42  + “”  returning “42” because the  compiler forces the 42 to be converted to a string. 
+Since there is a + sign and also a string “” the + sign becomes a string concatenation and converts everything to the right of the expression into a string. 
+Javascript is evaluated left to right, so 42 + 5 + “string” would be “47string” but 42 + “string” + 5 would be 42string5.
 
 Another example of when == and === is especially relevant is with object equality.
 
