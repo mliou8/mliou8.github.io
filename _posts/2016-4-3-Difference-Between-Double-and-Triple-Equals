@@ -1,3 +1,8 @@
+---
+layout: post
+title: Overcoming a technical challenge
+---
+
 What is the difference between == and ===?
 
 In Javascript, there’s a slight difference between using two equal signs and three equal signs. The short version of the difference between == and === is that two equal signs uses something called implicit type casting, and === compares both value AND the type, and both must match for that expression to return true. 
