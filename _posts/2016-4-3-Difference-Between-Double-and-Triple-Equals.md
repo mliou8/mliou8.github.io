@@ -12,7 +12,7 @@ A very common example is 42 == ’42’ because the type coercion will force the
 Going on a bit of a side tangent, type coercion also happens with cases like 42  + “”  returning “42” because the  compiler forces the 42 to be converted to a string. 
 Since there is a + sign and also a string “” the + sign becomes a string concatenation and converts everything to the right of the expression into a string. 
 Javascript is evaluated left to right, so 42 + 5 + “string” would be “47string” but 42 + “string” + 5 would be 42string5.
-
+<!--break-->
 Another example of when == and === is especially relevant is with object equality.
 ```
 var huskyPuppy = {
