@@ -1,9 +1,9 @@
 ---
 layout: post
-title: == vs. ===
+title: Double vs. Triple Equals
 ---
 
-What is the difference between == and ===?
+What is the difference between two == and three ===?
 
 In Javascript, there’s a slight difference between using two equal signs and three equal signs. 
 The short version of the difference between == and === is that two equal signs uses something called implicit type casting, and === compares both value AND the type, and both must match for that expression to return true. 
@@ -38,3 +38,5 @@ console.log(callingHusky === huskyPuppy);
 Although huskyPuppy and terrierPuppy seem identical, they’re each a new instance of an object, and therefore not ‘strictly’ equal. 
 
 If you want to find out how to compare if two objects are ‘value wise’ the same, then you will have to go through their keys and compare their key value pairs.
+
+Generally when comparing values you  want to stay away from only using two equals signs, since sometimes it will change the type of one of your comparison values, but only at time of comparison.
