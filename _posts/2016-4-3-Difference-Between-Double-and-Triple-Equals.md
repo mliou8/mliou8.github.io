@@ -14,7 +14,7 @@ Since there is a + sign and also a string “” the + sign becomes a string con
 Javascript is evaluated left to right, so 42 + 5 + “string” would be “47string” but 42 + “string” + 5 would be 42string5.
 
 Another example of when == and === is especially relevant is with object equality.
-
+```
 var huskyPuppy = {
     type: "puppy",
     adorableness: "true"
@@ -33,6 +33,7 @@ console.log(huskyPuppy == terrierPuppy);
 
 //Outputs: true
 console.log(callingHusky === huskyPuppy);
+```
 
 Although huskyPuppy and terrierPuppy seem identical, they’re each a new instance of an object, and therefore not ‘strictly’ equal. 
 
