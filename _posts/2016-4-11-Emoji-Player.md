@@ -3,8 +3,14 @@ layout: post
 title: Emoji Player
 ---
 
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+
 I just recently deployed a side project! I'm tentatively calling it 'The Best Emoji Music Player in the World'.  
 Check it out here: [Emoji Player](www.emojiplayer.com)  
+
+
+
 
 It's amazing that the domain name was basically untaken. I think it's because no domain name bots have picked up on emoji as a real word yet.
 The idea was originally for a NYC Spotify hackathon about music visualization. What are different ways that we visualize music?
