@@ -3,7 +3,7 @@ layout: post
 title: Emoji Player
 ---
 
-![Image of Yaktocat](http://imgur.com/rPdxMaw)
+![Image of Yaktocat](http://i.imgur.com/rPdxMawg.png)
 
 
 I just recently deployed a side project! I'm tentatively calling it 'The Best Emoji Music Player in the World'.  
