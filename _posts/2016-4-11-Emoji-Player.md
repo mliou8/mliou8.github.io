@@ -7,9 +7,12 @@ title: Emoji Player
 
 
 I just recently deployed a side project! I'm tentatively calling it 'The Best Emoji Music Player in the World'.  
-Check it out here:  <a class="external" target="_blank" href="www.emojiplayer.com">Emoji Player</a>
+Check it out here:  [setid](hey)
 
-
+[setid]: http://www.example.com
+This is [a link](http://rubyforge.org) to a page.
+A [link](../test "local URI") can also have a title.
+And [spaces](link with spaces.html)!
 
 
 It's amazing that the domain name was basically untaken. I think it's because no domain name bots have picked up on emoji as a real word yet.
