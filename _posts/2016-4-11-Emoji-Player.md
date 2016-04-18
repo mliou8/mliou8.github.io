@@ -7,7 +7,7 @@ title: Emoji Player
 
 
 I just recently deployed a side project! I'm tentatively calling it 'The Best Emoji Music Player in the World'.  
-Check it out here: This is [emojiplayer](http://www.emojiplayer.com)
+Check it out here: This is [Emoji Player](http://www.emojiplayer.com)
 
 
 It's amazing that the domain name was basically untaken. I think it's because no domain name bots have picked up on emoji as a real word yet.
