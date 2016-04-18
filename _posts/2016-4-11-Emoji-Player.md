@@ -7,7 +7,7 @@ title: Emoji Player
 
 
 I just recently deployed a side project! I'm tentatively calling it 'The Best Emoji Music Player in the World'.  
-Check it out here: https://www.emojiplayer.com
+Check it out here: www.emojiplayer.com
 
 
 
