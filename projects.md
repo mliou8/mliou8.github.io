@@ -7,9 +7,10 @@ permalink: /projects/
 
 This is a page for my projects
 
+[Emoji Player](http://www.emojiplayer.com)
 <figure>
    <img src="http://i.imgur.com/rPdxMawg.png" alt="Emoji Player" width="304" height="250"> 
-  <figcaption> [Emoji Player](http://www.emojiplayer.com) </figcaption>
+  <figcaption> Emoji Player </figcaption>
 </figure>
 
 
