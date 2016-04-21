@@ -5,7 +5,6 @@ permalink: /projects/
 ---
 
 
-This is a page for my projects
 
 [Emoji Player](http://www.emojiplayer.com)
 <figure>
