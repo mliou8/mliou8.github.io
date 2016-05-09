@@ -49,9 +49,9 @@ module.exports = (
 );
 
 ```
-The <Route> element allows you to pass in paths, and then specify components that you required in to be rendered. You have to make sure to put the components into single brackets to make sure that they’re extrapolated. So here the default “/“ path will render the Main component that was built earlier. 
+The Route element allows you to pass in paths, and then specify the components that you required in to be rendered at that path. You have to make sure to surround the extrapolated component with brakcets to make sure that they’re extrapolated. In this example router file,  the default “/“ path will render the Main component that was built earlier. 
 
-The IndexRoute component here allows you to “chain” off of the Home route, so that SomeOtherComponent is passed in as a child component of Main.
+The IndexRoute component here allows you to “chain” off of the Home route, so that SomeOtherComponent is passed in as a child component of Main. So both components will be rendered on the landing page.
 
 To get more specific routes, you can pass in dynamic paths like this one.
 
