@@ -31,6 +31,7 @@ var Home = React.createClass({
 module.exports = Home;
 
 ```
+<!--break-->
 Now you might need a simple routes file, to render this component. 
 
 ```
