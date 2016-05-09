@@ -8,7 +8,11 @@ Part 1 will cover what it takes to get basic components rendered into an app, an
 
 Components:
 
-First you have to build components. They’re basically React classes with various methods, the most important one being the “render” method. The render method returns a HTML element that will be rendered when this particular component is called. The components are passed from one file to another by using the module.exports functionality of node. Components are basically Angular “factories”, or ways to organize your code into different portions. 
+First you have to build components. They’re basically React classes with various methods, the most important one being the “render” method. 
+
+The render method returns a HTML element that will be rendered when this particular component is called. The components are passed from one file to another by using the module.exports functionality of node. 
+
+Components are basically Angular “factories”, or ways to organize your code into different portions. 
 This is a simple example of what a component file could look like:
 
 ```
