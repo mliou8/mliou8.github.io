@@ -3,7 +3,7 @@ layout: page
 permalink: /about/
 ---
 
-Thanks for visiting my page!
+Talking about your whole life can feel like one of two things. Sometimes you're rolling off a quick 5 minute elevator pitch as part of an interview, or you feel like a ghost, giving your own obituary in a pub. 
 
 ### More Information
 
