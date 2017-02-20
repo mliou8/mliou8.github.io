@@ -4,9 +4,9 @@ title: Creating A Jobs Board pt. 1
 ---
 
 I'm off and running on my first project that I hope to share with people soon! I see a gap in the tech hiring market,
-where there's a lot of quantity of job postings flying around, and a lot of applicants entering the market through coding bootcamps.
+where there's a high quantity of job postings flying around, and a lot of applicants entering the market through coding bootcamps.
 
-My hope is to gather feedback from internal recruiters of companies to help isolate some time saving screening culture fit questions
+My hope is to gather feedback from internal recruiters of companies to help isolate some time saving screening questions
 for the positions that they're hiring for. On the applicant side, I want to take away some of the pain from the application process.
 
 I know first hand how demoralizing and frustrating the job search can be sometimes. You send out applications and a lot of times you
