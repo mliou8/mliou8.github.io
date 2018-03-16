@@ -34,7 +34,7 @@ Donec a enim hendrerit, molestie risus ac, tristique ex. Fusce elementum dolor v
   <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
   <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
   <br>
-  <video id="video2" muted autoplay playsinline>
+  <video id="video2" muted autoplay preload="none" playsinline>
     <source src="https://m.media-amazon.com/images/I/D1FJ5FLuncS.mp4"/>
   </video>
         <script>
@@ -53,7 +53,7 @@ Donec a enim hendrerit, molestie risus ac, tristique ex. Fusce elementum dolor v
                 if (visible > fraction && flag) {
                     console.log("setting video2 to preload ");
                     flag = false;
-                    //video2.preload = "auto";
+                    video2.setAttribute("preload", "auto");
                 } else {
                     video2.pause();
                 }
