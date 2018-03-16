@@ -34,7 +34,7 @@ Donec a enim hendrerit, molestie risus ac, tristique ex. Fusce elementum dolor v
   <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
   <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
   <br>
-  <video id="video2" controls muted autoplay poster="https://www.colourbox.com/preview/2278615-the-man-with-a-camera.jpg">
+  <video id="video2" controls muted autoplay playsinline>
     <source src="https://m.media-amazon.com/images/I/D1FJ5FLuncS.mp4"/>
   </video>
         <script>
@@ -44,4 +44,3 @@ Donec a enim hendrerit, molestie risus ac, tristique ex. Fusce elementum dolor v
 
     </body>
 </html>
-
