@@ -41,7 +41,8 @@ Donec a enim hendrerit, molestie risus ac, tristique ex. Fusce elementum dolor v
           var video2 = document.getElementById('video2'), fraction = 0.8;
           var flag = true;
             function check2scroll() {
-                var x = video2.offsetLeft, y = video2.offsetTop, w = video2.offsetWidth, h = video2.offsetHeight, r = x + w, //right
+                var x = video2.offsetLeft, y = video2.offsetTop, w = video2.offsetWidth, h = video2.offsetHeight, 
+                r = x + w, 
                 b = y + h, //bottom
                 visibleX, visibleY, visible;
 
@@ -53,7 +54,7 @@ Donec a enim hendrerit, molestie risus ac, tristique ex. Fusce elementum dolor v
                 if (visible > fraction && flag) {
                     console.log("setting video2 to preload ");
                     flag = false;
-                    video2.preload = "auto";
+                   // video2.preload = "auto";
                 } else {
                     video2.pause();
                 }
