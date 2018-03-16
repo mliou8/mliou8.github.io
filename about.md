@@ -51,14 +51,15 @@ Donec a enim hendrerit, molestie risus ac, tristique ex. Fusce elementum dolor v
                 visible = visibleX * visibleY / (w * h);
 
                 if (visible > fraction && flag) {
+                    console.log("setting video2 to preload ");
                     flag = false;
                     video2.preload = "auto";
                 } else {
                     video2.pause();
                 }
             } check2scroll();
-            window.addEventListener('scroll', checkScroll, false);
-            window.addEventListener('resize', checkScroll, false);
+            window.addEventListener('scroll', check2scroll, false);
+            window.addEventListener('resize', check2scroll, false);
 
         </script>
 
