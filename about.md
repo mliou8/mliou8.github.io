@@ -41,7 +41,7 @@ Donec a enim hendrerit, molestie risus ac, tristique ex. Fusce elementum dolor v
           var video2 = document.getElementById('video2'), fraction = 0.8;
           var flag = true;
             function check2scroll() {
-                var x = video2.offsetLeft, y = video2.offsetTop, w = video2.offsetWidth, h = video2.offsetHeight, r = x + w, //right
+                var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
                 b = y + h, //bottom
                 visibleX, visibleY, visible;
 
@@ -58,8 +58,8 @@ Donec a enim hendrerit, molestie risus ac, tristique ex. Fusce elementum dolor v
                     video2.pause();
                 }
             } check2scroll();
-            window.addEventListener('scroll', check2scroll, false);
-            window.addEventListener('resize', check2scroll, false);
+            window.addEventListener('scroll', checkscroll, false);
+            window.addEventListener('resize', checkscroll, false);
 
         </script>
 
