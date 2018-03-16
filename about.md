@@ -34,11 +34,31 @@ Donec a enim hendrerit, molestie risus ac, tristique ex. Fusce elementum dolor v
   <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
   <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
   <br>
-  <video id="video2" muted autoplay preload="auto">
+  <video id="video2" muted autoplay preload="none">
     <source src="https://m.media-amazon.com/images/I/D1FJ5FLuncS.mp4"/>
   </video>
         <script>
+          var video2 = document.getElementById('video2'), fraction = 0.8;
+          var flag = true;
+            function check2scroll() {
+                var x = video.offsetLeft, y = video.offsetTop, w = video.offsetWidth, h = video.offsetHeight, r = x + w, //right
+                b = y + h, //bottom
+                visibleX, visibleY, visible;
 
+                visibleX = Math.max(0, Math.min(w, window.pageXOffset + window.innerWidth - x, r - window.pageXOffset));
+                visibleY = Math.max(0, Math.min(h, window.pageYOffset + window.innerHeight - y, b - window.pageYOffset));
+
+                visible = visibleX * visibleY / (w * h);
+
+                if (visible > fraction && flag) {
+                    flag = false;
+                    video2.preload = "auto";
+                } else {
+                    video2.pause();
+                }
+            } check2scroll();
+            window.addEventListener('scroll', checkScroll, false);
+            window.addEventListener('resize', checkScroll, false);
 
         </script>
 
