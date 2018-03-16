@@ -34,15 +34,14 @@ Donec a enim hendrerit, molestie risus ac, tristique ex. Fusce elementum dolor v
   <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
   <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
   <br>
-  <video id="video2" muted autoplay playsinline preload="none">
+  <video id="video2" muted autoplay playsinline>
     <source src="https://m.media-amazon.com/images/I/D1FJ5FLuncS.mp4"/>
   </video>
         <script>
           var video2 = document.getElementById('video2'), fraction = 0.8;
           var flag = true;
             function check2scroll() {
-                var x = video2.offsetLeft, y = video2.offsetTop, w = video2.offsetWidth, h = video2.offsetHeight, 
-                r = x + w, 
+                var x = video2.offsetLeft, y = video2.offsetTop, w = video2.offsetWidth, h = video2.offsetHeight, r = x + w, //right
                 b = y + h, //bottom
                 visibleX, visibleY, visible;
 
@@ -54,7 +53,7 @@ Donec a enim hendrerit, molestie risus ac, tristique ex. Fusce elementum dolor v
                 if (visible > fraction && flag) {
                     console.log("setting video2 to preload ");
                     flag = false;
-                   // video2.preload = "auto";
+                    //video2.preload = "auto";
                 } else {
                     video2.pause();
                 }
