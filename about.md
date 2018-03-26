@@ -3,7 +3,11 @@ layout: page
 permalink: /about/
 ---
 
-Talking about your whole life can feel like one of two things. Sometimes you're rolling off a quick 5 minute elevator pitch as part of an interview, or you feel like a ghost, giving your own obituary in a pub.
+I'm another thoughtful software engineer looking to improve himself and hoping not to rain on anyone's parade. Making my way one step at a time. Feel free to follow along! 
+
+All opinions expressed are my own and do not reflect those of my employer.
+
+Currently WDE @ Amazon
 
 More Information
 I loves all things games, gamification, VR, science fiction, and social engineering.
