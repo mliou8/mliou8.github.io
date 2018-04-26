@@ -37,6 +37,11 @@ $(document).ready(function(){
 $(document).ready(function(){
 		$(`#parentDiv video`).click(function(){
 				console.log("click on the videw");
+				
+		});
+		$(`#parentDiv`).click(function(){
+				console.log("click on the parent div");
+				
 		});
 });
 
